@@ -1,0 +1,10 @@
+1.)
+	[a-c]*((ab)|(bc)|(ac))[a-c]*
+3.)
+	____|_ab|_ac|_bc|_ba|_ca|_cb|
+	->1	| 2	| 2	| 2	| 1	| 1	| 1	|
+	 *2	| 2	| 2	| 2	| 2	| 2	| 2	|
+	
+	** 	not sure about this one
+	** 	"bac" fails but satisfies 
+	** 	 RegEx and NFA
